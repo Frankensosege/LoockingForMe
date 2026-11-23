@@ -1,33 +1,66 @@
-# Gradle / Build
-.gradle/
-build/
-*/build/
-.cxx/
-*/.cxx/
-captures/
-.externalNativeBuild/
+# 루트의 모든 항목을 기본적으로 무시
+*
 
-# Android Studio
-.idea/
-*.iml
-local.properties
+# 예외: Git에 포함할 대상 (앞의 !가 핵심)
+!/.gitignore
+!/index.html
+!/DesignGuideLine.md
+!/LoockingForMe/
 
-# Signing / secrets
-*.jks
-*.keystore
-keystore.properties
-google-services.json
+# LoockingForMe 폴더 내부의 빌드/임시/비밀 파일 제외
+/LoockingForMe/**/.gradle/
+/LoockingForMe/**/build/
+/LoockingForMe/**/.cxx/
+/LoockingForMe/**/.idea/
+/LoockingForMe/**/*.iml
+/LoockingForMe/local.properties
+/LoockingForMe/**/*.jks
+/LoockingForMe/**/*.keystore
+/LoockingForMe/**/keystore.properties
+/LoockingForMe/**/google-services.json
+/LoockingForMe/**/*.apk
+/LoockingForMe/**/*.aab
+/LoockingForMe/**/*.aar
+/LoockingForMe/**/release/
+/LoockingForMe/app/src/main/assets/
 
-# Outputs
-*.apk
-*.aab
-*.aar
-release/
-*/release/
 
-# OS
-.DS_Store
-Thumbs.db
 
-# assets
-/app/src/main/assets/
+## Gradle / Build
+# .gradle/
+# LoockingForMe/.gradle/
+# build/
+# */build/
+# LoockingForMe/**/build/
+# .cxx/
+# */.cxx/
+# LoockingForMe/**/.cxx/
+# captures/
+# .externalNativeBuild/
+
+## Android Studio
+# .idea/
+# LoockingForMe/.idea/
+# *.iml
+# local.properties
+
+## Signing / secrets
+# *.jks
+# *.keystore
+# keystore.properties
+# google-services.json
+
+## Outputs
+# *.apk
+# *.aab
+# *.aar
+# release/
+# */release/
+# LoockingForMe/**/release/
+
+## OS
+# .DS_Store
+# Thumbs.db
+
+## assets
+# /LoockingForMe/app/src/main/assets/
