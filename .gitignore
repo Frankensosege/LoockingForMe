@@ -1,0 +1,33 @@
+# Gradle / Build
+.gradle/
+build/
+*/build/
+.cxx/
+*/.cxx/
+captures/
+.externalNativeBuild/
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+
+# Signing / secrets
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+
+# Outputs
+*.apk
+*.aab
+*.aar
+release/
+*/release/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# assets
+/app/src/main/assets/
