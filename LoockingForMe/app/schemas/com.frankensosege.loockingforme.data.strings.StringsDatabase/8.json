@@ -1,0 +1,400 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 8,
+    "identityHash": "fadbc37e0b04b2c951291a3b1e2094e5",
+    "entities": [
+      {
+        "tableName": "app_strings",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`language_code` TEXT NOT NULL, `app_name` TEXT NOT NULL, `save_and_start` TEXT NOT NULL, `settings` TEXT NOT NULL, `close_app` TEXT NOT NULL, `cancel` TEXT NOT NULL, `delete` TEXT NOT NULL, `setting_title` TEXT NOT NULL, `setting_language` TEXT NOT NULL, `setting_source_dir` TEXT NOT NULL, `setting_source_dir_hint` TEXT NOT NULL, `setting_scan_dir` TEXT NOT NULL, `setting_scan_dir_hint` TEXT NOT NULL, `setting_select_folder` TEXT NOT NULL, `setting_similarity_threshold` TEXT NOT NULL, `setting_similarity_hint` TEXT NOT NULL, `main_title` TEXT NOT NULL, `main_add_list` TEXT NOT NULL, `main_list_name_hint` TEXT NOT NULL, `main_find_me` TEXT NOT NULL, `main_no_lists` TEXT NOT NULL, `main_scan_dir_label` TEXT NOT NULL, `main_face_not_set` TEXT NOT NULL, `main_face_set` TEXT NOT NULL, `face_picker_title` TEXT NOT NULL, `face_picker_tap_hint` TEXT NOT NULL, `face_picker_no_face` TEXT NOT NULL, `face_picker_select_photo` TEXT NOT NULL, `face_picker_detecting` TEXT NOT NULL, `face_picker_nosource_dir` TEXT NOT NULL, `face_picker_empty_dir` TEXT NOT NULL, `scan_in_progress` TEXT NOT NULL, `scan_complete` TEXT NOT NULL, `scan_no_result` TEXT NOT NULL, `result_title` TEXT NOT NULL, `result_back` TEXT NOT NULL, `result_empty` TEXT NOT NULL, `result_select_all` TEXT NOT NULL, `result_deselect_all` TEXT NOT NULL, `result_delete_selected` TEXT NOT NULL, `result_share_bluetooth` TEXT NOT NULL, `result_selected_count` TEXT NOT NULL, `result_delete_confirm` TEXT NOT NULL, `result_long_press_hint` TEXT NOT NULL, `scan_has_existing_title` TEXT NOT NULL, `scan_has_existing_message` TEXT NOT NULL, `scan_restart_delete` TEXT NOT NULL, `scan_restart_skip` TEXT NOT NULL, `face_add_sample` TEXT NOT NULL, `face_sample_count` TEXT NOT NULL, `unclassified_list_name` TEXT NOT NULL, `result_reclassify` TEXT NOT NULL, `result_reclassify_title` TEXT NOT NULL, `result_reclassify_hint` TEXT NOT NULL, `result_reclassify_save` TEXT NOT NULL, `permission_required` TEXT NOT NULL, `permission_go_settings` TEXT NOT NULL, `permission_rationale` TEXT NOT NULL, `update_ready_msg` TEXT NOT NULL, `update_restart` TEXT NOT NULL, `update_later` TEXT NOT NULL, `exit_confirm_message` TEXT NOT NULL, PRIMARY KEY(`language_code`))",
+        "fields": [
+          {
+            "fieldPath": "languageCode",
+            "columnName": "language_code",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "appName",
+            "columnName": "app_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "saveAndStart",
+            "columnName": "save_and_start",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "settings",
+            "columnName": "settings",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "closeApp",
+            "columnName": "close_app",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "cancel",
+            "columnName": "cancel",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "delete",
+            "columnName": "delete",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "settingTitle",
+            "columnName": "setting_title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "settingLanguage",
+            "columnName": "setting_language",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "settingSourceDir",
+            "columnName": "setting_source_dir",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "settingSourceDirHint",
+            "columnName": "setting_source_dir_hint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "settingScanDir",
+            "columnName": "setting_scan_dir",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "settingScanDirHint",
+            "columnName": "setting_scan_dir_hint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "settingSelectFolder",
+            "columnName": "setting_select_folder",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "settingSimilarityThreshold",
+            "columnName": "setting_similarity_threshold",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "settingSimilarityHint",
+            "columnName": "setting_similarity_hint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mainTitle",
+            "columnName": "main_title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mainAddList",
+            "columnName": "main_add_list",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mainListNameHint",
+            "columnName": "main_list_name_hint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mainFindMe",
+            "columnName": "main_find_me",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mainNoLists",
+            "columnName": "main_no_lists",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mainScanDirLabel",
+            "columnName": "main_scan_dir_label",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mainFaceNotSet",
+            "columnName": "main_face_not_set",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "mainFaceSet",
+            "columnName": "main_face_set",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "facePickerTitle",
+            "columnName": "face_picker_title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "facePickerTapHint",
+            "columnName": "face_picker_tap_hint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "facePickerNoFace",
+            "columnName": "face_picker_no_face",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "facePickerSelectPhoto",
+            "columnName": "face_picker_select_photo",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "facePickerDetecting",
+            "columnName": "face_picker_detecting",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "facePickerNoSourceDir",
+            "columnName": "face_picker_nosource_dir",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "facePickerEmptyDir",
+            "columnName": "face_picker_empty_dir",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "scanInProgress",
+            "columnName": "scan_in_progress",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "scanComplete",
+            "columnName": "scan_complete",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "scanNoResult",
+            "columnName": "scan_no_result",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultTitle",
+            "columnName": "result_title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultBack",
+            "columnName": "result_back",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultEmpty",
+            "columnName": "result_empty",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultSelectAll",
+            "columnName": "result_select_all",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultDeselectAll",
+            "columnName": "result_deselect_all",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultDeleteSelected",
+            "columnName": "result_delete_selected",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultShareBluetooth",
+            "columnName": "result_share_bluetooth",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultSelectedCount",
+            "columnName": "result_selected_count",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultDeleteConfirm",
+            "columnName": "result_delete_confirm",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultLongPressHint",
+            "columnName": "result_long_press_hint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "scanHasExistingTitle",
+            "columnName": "scan_has_existing_title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "scanHasExistingMessage",
+            "columnName": "scan_has_existing_message",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "scanRestartDelete",
+            "columnName": "scan_restart_delete",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "scanRestartSkip",
+            "columnName": "scan_restart_skip",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "faceAddSample",
+            "columnName": "face_add_sample",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "faceSampleCount",
+            "columnName": "face_sample_count",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "unclassifiedListName",
+            "columnName": "unclassified_list_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultReclassify",
+            "columnName": "result_reclassify",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultReclassifyTitle",
+            "columnName": "result_reclassify_title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultReclassifyHint",
+            "columnName": "result_reclassify_hint",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "resultReclassifySave",
+            "columnName": "result_reclassify_save",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "permissionRequired",
+            "columnName": "permission_required",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "permissionGoSettings",
+            "columnName": "permission_go_settings",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "permissionRationale",
+            "columnName": "permission_rationale",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updateReadyMsg",
+            "columnName": "update_ready_msg",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updateRestart",
+            "columnName": "update_restart",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updateLater",
+            "columnName": "update_later",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "exitConfirmMessage",
+            "columnName": "exit_confirm_message",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "language_code"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'fadbc37e0b04b2c951291a3b1e2094e5')"
+    ]
+  }
+}

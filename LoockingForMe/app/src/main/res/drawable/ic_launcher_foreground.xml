@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 돋보기 렌즈 -->
+    <path
+        android:pathData="M48,46m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0"
+        android:strokeColor="#FAECE7"
+        android:strokeWidth="6"
+        android:fillColor="#00000000" />
+
+    <!-- 돋보기 손잡이 -->
+    <path
+        android:pathData="M61,59 L76,74"
+        android:strokeColor="#FAECE7"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- 눈 -->
+    <path
+        android:pathData="M48,38m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0"
+        android:fillColor="#FAECE7" />
+
+    <!-- 미소 -->
+    <path
+        android:pathData="M40,50 Q48,58 56,50"
+        android:strokeColor="#FAECE7"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+</vector>
